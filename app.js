@@ -11,3 +11,4 @@ const Port = 3000;
 app.listen(Port, () => console.log('serveur started on ' + Port));
  // ajouter des routes au serveur
  app.use('/user', require('./Router/UserRouter'));
+ app.use('/Event', require('./Router/EventRouter'));
